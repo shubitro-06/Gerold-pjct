@@ -9,6 +9,8 @@ import About from './About'
 import Service from './Service'
 import RecentWork from './RecentWork'
 import Achivement from './Achivement'
+import Review from './Review'
+import Blog from './Blog'
 
 function App() {
   const [count, setCount] = useState(0)
@@ -22,6 +24,8 @@ function App() {
       <Service/>
       <RecentWork/>
       <Achivement/>
+      <Review/>
+      <Blog/>
     </>
   )
 }
