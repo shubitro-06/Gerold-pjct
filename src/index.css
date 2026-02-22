@@ -29,3 +29,14 @@ body{
 h1,h2,h3 {
   color: white;
 }
+
+.hov h1:hover {
+  background: #000;
+  width: 140px;
+  height: 42px;
+  text-align: center;
+  padding-top: 10px;
+  border-radius: 20px;
+  cursor: pointer;
+  transition: ease .5s;
+}

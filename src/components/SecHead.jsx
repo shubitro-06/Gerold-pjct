@@ -4,8 +4,8 @@ const SecHead = ({ head, para,classname }) => {
     return (
         <>
             <div className="container">
-                <div className={`${classname} w-132.5 `}>
-                    <h4 className='text-primary mb-6.2'>{head} </h4>
+                <div className={`w-140.5 ${classname} uppercase `}>
+                    <h4 className='text-primary mb-6.5'>{head} </h4>
                     <p className='text-[45px] font-semibold text-white  '>{para} </p>
                 </div>
             </div>

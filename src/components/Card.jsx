@@ -8,7 +8,7 @@ const Card = ({img,head,para,par}) => {
               <img src={img} alt="###" />
               <h4 className='w-31.25 text-secondary'>{head} </h4>
           </div>
-          <p className='pt-4 pb-16.25 w-60.75 text-secondary'>{para} </p>
+          <p className='pt-4 pb-9.75 w-60.75 text-secondary'>{para} </p>
           <img src={par} alt="###" />
           
       </div>
